@@ -9,7 +9,8 @@ html {
 }
 
 .inputBox {
-  margin: 2rem;
+  margin-bottom:2rem;
+  margin-top: 0.3rem;
   color: #B1BAD3;
 
   input {
@@ -17,7 +18,8 @@ html {
     border: none;
     color: white;
     width: 15rem;
-    height: 2.5rem
+    height: 2.5rem;
+    padding: 0 0.5rem;
   }
 
 

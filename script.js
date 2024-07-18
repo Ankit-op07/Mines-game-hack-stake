@@ -4,6 +4,17 @@ let minesArray = [];
 
 // function name was placeBet
 function placeBet() {
+  const value1= document.getElementById('activeSeed').value;
+  const value2= document.getElementById('serverSeed').value;
+  if(!(value1 && value2)){
+    const msg = document.getElementById('errorMessage');
+    msg.innerHTML = "Please fill both the fields with correct seeds."; 
+    msg.style.color = "red";
+    return;
+  }else{
+    const msg = document.getElementById('errorMessage');
+    msg.innerHTML = ""; 
+  }
   console.log("bet placed")
   const mines = document.getElementsByClassName('mine');
   minesArray = Array.from(mines);

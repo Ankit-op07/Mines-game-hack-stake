@@ -13,7 +13,7 @@
 <body>
   <div style="display: flex;justify-content: center;
    flex-direction: column; align-items: center; height: 100vh; width: 100vw; background-color:#1a2c38;">
-    <img src="stake.png" width="120" class="mb-2">
+    <img src="stake.png" width="100" class="mt-2" >
     <div class="inputBox">
       <div for="activeSeed" class="mb-1">Active Client Seed</div>
       <input type="text" id="activeSeed" />
@@ -21,6 +21,7 @@
       <div for="activeSeed" class="mt-2 mb-1">Active Server Seed (Hashed)</div>
       <input type="text" id="serverSeed" />
     </div>
+    <div id="errorMessage"></div>
     <div class="container box">
       <div class="row gx-1">
         <div class="col mine" id="mine1" onclick="mineOpen(this.id)">
