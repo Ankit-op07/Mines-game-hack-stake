@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inputBox {
+  margin: 2rem;
+  color: #B1BAD3;
+
+  input {
+    background-color: #0f212e;
+    border: none;
+    color: white;
+    width: 15rem;
+    height: 2.5rem
+  }
+
+
+}
+
+.box {
+  height: 25rem;
+  width: 25rem;
+  background-color: #0f212e;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+
+.mine {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: #2f4553;
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+#btn {
+  padding: 1rem 3rem;
+  background-color: #00E701;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
